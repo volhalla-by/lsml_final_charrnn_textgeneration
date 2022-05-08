@@ -23,12 +23,12 @@ The app consists of the following services:
 * **Flask** is a web framework connected to Celery 
 * **Celery** is a task queue implementation for Python web applications used to asynchronously execute work outside the HTTP request-response cycle
 * **MLFlow** that record and query experiments with models
-* Jupyter notebooks with model training
+* **Jupyter notebook** with model training
 
 ## Quick start
 1. Building an images from docker-compose.yml
 ```docker-compose build --no-cache```
 2. The docker-compose up command aggregates the output of each container 
 ```docker-compose up```
-3. Application us running on localhost 5001 port (http://localhost:5001/). Just enter a starting sowrd or a phrase, click on submit button and wait until the resoinse.
+3. Application is running on localhost 5001 port (http://localhost:5001/). Just enter a starting sowrd or a phrase, click on submit button and wait until the resoinse.
 <img width="1370" alt="image" src="https://user-images.githubusercontent.com/9429871/167312924-f64c6679-5853-45c3-b24b-74714a397303.png">
