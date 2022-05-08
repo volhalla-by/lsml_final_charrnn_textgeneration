@@ -1,6 +1,6 @@
 # Text Generation with CharRNN
 
-## Projecr Description
+## Project Description
 Reccurent Neural Network was trained to generate a text one character at the time. As training data, 99 most popular books from [Project Gutenberg](https://www.gutenberg.org/browse/scores/top) were used. You may find it in **data** folder under _archive_books.zip_ name. On the first step dictionaries for converting characters to integers and vice versa were created. LSTM expects one-hot encoded input, which means that each character is converted to an integer (via our created dictionary) and then converted to a vector, where a value 1 will be only on a corresponding position and the rest of the vector will be filled with zeros. To train the neural network, mini-batches were organised as follows: divide the entire input sequence by the desired number of subsequences (parameter _batch_size_), and send a sequence of length _seq_length_ to the input of the network.
 ![image](https://user-images.githubusercontent.com/9429871/167312573-d64d8691-940d-4422-96a4-9b771ca9e1c6.png)
 
