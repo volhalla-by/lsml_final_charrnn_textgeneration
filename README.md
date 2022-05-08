@@ -30,5 +30,5 @@ The app consists of the following services:
 ```docker-compose build --no-cache```
 2. The docker-compose up command aggregates the output of each container 
 ```docker-compose up```
-3. Application is running on localhost 5001 port (http://localhost:5001/). Just enter a starting sowrd or a phrase, click on submit button and wait until the resoinse.
+3. Application is running on localhost 5001 port (http://localhost:5001/). Just enter a starting sowrd or a phrase, click on submit button and wait until the resoinse. By default we predict sequence of length 500. You may increase it changing parameters of **sample** function.
 <img width="1370" alt="image" src="https://user-images.githubusercontent.com/9429871/167312924-f64c6679-5853-45c3-b24b-74714a397303.png">
